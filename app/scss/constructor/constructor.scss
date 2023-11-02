@@ -1,0 +1,131 @@
+.constructor-page {
+  overflow: hidden;
+
+  .steps-button{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .step-info {
+    .title {
+      margin-top: 48px;
+      margin-bottom: 55px;
+    }
+
+    .step-form {
+      .form-textarea {
+        height: 397px;
+      }
+    }
+  }
+
+  .introduction-screen {
+    margin-top: 92px;
+    margin-bottom: 93px;
+
+    .constructor-right-column {
+      //padding-top: 107px;
+      margin-top: 20px;
+    }
+
+  }
+
+  .steps-screen {
+    padding-bottom: 54px;
+
+    .step {
+      margin-top: 89px;
+      color: var(--black);
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: .4px;
+
+    }
+
+    .steps-text {
+      box-sizing: border-box;
+      padding: 20px 50px;
+      color: var(--black);
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 32px;
+      letter-spacing: .0037em;
+      border: 1px solid var(--black);
+      border-radius: 36px;
+      cursor: pointer;
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, .14));
+
+      &:hover {
+        color: var(--blue);
+        border: 1px solid var(--blue);
+      }
+    }
+
+    .step-arrow-left,
+    .step-arrow-right {
+      cursor: pointer;
+    }
+
+    .step-arrow-text-left {
+      color: var(--dark_gray);
+      font-size: 24px;
+      line-height: 36px;
+      letter-spacing: .004em;
+    }
+
+    .step-arrow-text-right {
+      color: var(--black);
+      font-size: 24px;
+      line-height: 36px;
+      letter-spacing: .004em;
+    }
+  }
+}
+
+@media screen and ( max-width: 992px ) {
+  .constructor-page {
+    .steps-screen {
+      .steps-text {
+        padding: 15px 30px;
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@media screen and ( max-width: 768px ) {
+  .constructor-page {
+    .steps-screen {
+      .steps-text {
+        padding: 5px 8px;
+        font-size: 16px;
+      }
+
+      .step {
+        margin-top: 48px;
+      }
+    }
+
+    .step-info {
+      .title {
+        margin-top: 9px;
+        margin-bottom: 0;
+      }
+    }
+
+    .introduction-screen {
+      margin-top: 72px;
+      margin-bottom: 0px;
+    }
+
+    .constructor-introduction {
+      .title,
+      .sub-title {
+        text-align: center;
+      }
+    }
+  }
+}
+
+
+//constructor-introduction

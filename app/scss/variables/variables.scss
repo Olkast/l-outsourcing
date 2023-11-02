@@ -1,0 +1,37 @@
+@import '../../../node_modules/bootstrap/scss/functions';
+@import '../../../node_modules/bootstrap/scss/variables';
+
+$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1168px);
+$grid-gutter-width: 32px;
+
+:root {
+
+  --black: #000;
+  --black-ultra: #8d8d8d;
+  --black-light: #373737;
+  --black-dark: #696969;
+  --white: #fff;
+  --light-white: #cbcbcb;
+  --dark-white: #f7f7f7;
+  --dark_blue: rgba(0, 126, 243, .28);
+  --light_blue: rgba(0, 128, 246, .7);
+  --blue: #487efb;
+  --blue_2: #eff7ff;
+  --blue_3: #7fdce7;
+  --blue_4: #74e0eb;
+  --gray: #575757;
+  --dark_gray: #999;
+  --light_gray: #dedede;
+  --ligth_gray_2: #eafbff;
+  --gently_gray: #dff0ff;
+  --gray_1: #616161;
+  --gray_2: #6e6e6e;
+  --gray_3: rgba(185, 204, 250, .74);
+  --gray_4: #606060;
+  --gray_5: #cbd9fb;
+  --gray_6: #b9ccfa;
+  --gray_8: #7e7e7e;
+  --gray_9: #888;
+  --green: #7fdce7;
+  --background-blue: linear-gradient(81.39deg, #74e0eb 4.27%, #9fb3e6 89.83%);
+}

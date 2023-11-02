@@ -1,0 +1,60 @@
+.business-card-email-bg {
+  background: #f7f7f7 !important;
+}
+
+.business-card{
+  margin-top: 128px;
+  padding: 24px;
+  background: #dff0ff;
+  border-radius: 4px;
+
+  .business-card-user {
+    display: flex;
+  }
+
+  .business-card-user-ava {
+    width: 100%;
+    max-width: 126px;
+  }
+
+  .business-card-user-title {
+    color: #7e7e7e;
+    font-weight: 300;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: .003em;
+  }
+
+  .business-card-sub-title,
+  .business-card-info {
+    color: #000;
+    font-weight: 300;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: .003em;
+  }
+}
+
+@media screen and ( max-width: 562px ) {
+  .business-card {
+    margin-top: 54px;
+  }
+}
+
+@media screen and ( max-width: 400px ) {
+  .business-card {
+    .business-card-user {
+      flex-direction: column;
+
+      .business-card-user-title > div{
+        text-align: center;
+      }
+
+      .business-card-user-ava {
+        margin: 0 auto;
+      }
+    }
+  }
+}

@@ -1,0 +1,139 @@
+@@include('./components/header.html')
+
+<div class="about-us-page">
+    <div class="introduction-screen">
+        @@include('./components/introduction.html', {
+        'title': 'Добро пожаловать в КОРСАР',
+        'sub-title': 'Наша команда разработчиков оказывает самые разные услуги по разработке ПО: аутсорс-разработка, ИТ-менеджмент,  разработка веб-приложений, разработка мобильных приложений и многое другое.',
+        })
+    </div>
+
+    <div class="mission-screen">
+        <div class="mission pt72 pb72">
+            <div class="container">
+                <div class="row">
+                    <div class="mission-left col-md-8">
+                        <h2 class="title">
+                            Наши миссии и стратегии
+                        </h2>
+                        <p class="sub-title dark sub-title-dark">
+                            Для нас важно максимально прозрачно и эффективно выстроить процесс разработки и
+                            продуктивное
+                            взаимодействие между командой и клиентом.
+                        </p>
+                        <div class="link pt23">
+                            <div class="list df aic">
+                                <p class="sub-title sub-title-about dark">
+                                    Мы обеспечиваем техническую поддержку после релиза
+                                </p>
+                            </div>
+                            <div class="list df aic">
+                                <p class="sub-title sub-title-about dark">
+                                    Наша QA-команда тщательно тестирует разработанное решение
+                                </p>
+                            </div>
+                            <div class="list df aic">
+                                <p class="sub-title sub-title-about dark">
+                                    Мы внимательно анализируем ваши технические требования и бизнес-задачи
+                                </p>
+                            </div>
+                            <div class="list df aic">
+                                <p class="sub-title sub-title-about dark">
+                                    Перед началом разработки мы предоставим план работ, расчёт их продолжительности.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mission-right col-md-4 m-auto">
+                        <picture>
+                            <source srcset="images/dest/tower.png" type="image/webp">
+                            <img class="list-img" src="images/tower.png" alt="">
+                        </picture>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="cooperation-screen">
+        <div class="cooperation pt72 pb72">
+            <div class="container">
+                <p class="title m0a tac pb32">
+                    Как с нами сотрудничать
+                </p>
+                <p class="sub-title m0a tac">
+                    Мы предлагаем несколько моделей сотрудничества, чтобы вы могли выбрать самую комфортную для вас и
+                    вашей
+                    компании. Если не можете определиться, мы подскажем, какая модель лучше подойдёт для вашего проекта.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="models-screen">
+        <div class="models pt72 pb72">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p class="title title-models m0a tac">
+                            Как с нами сотрудничать
+                        </p>
+                    </div>
+                    <div class="list col-xl-4 col-lg-6 col-md-6 col-sm-6">
+                        @@include('./components/fast.html', {
+                        'class': 'green',
+                        'title': 'Фиксированная стоимость ',
+                        'text': 'Мы рекомендуем такую модель сотрудничества для реализации небольших проектов. ',
+                        'img': '/images/dest/cart.png',
+                        })
+                    </div>
+                    <div class="list col-xl-4 col-lg-6 col-md-6 col-sm-6">
+                        @@include('./components/fast.html', {
+                        'class': 'blue',
+                        'title': 'Повременная оплата',
+                        'text': 'Ценообразование основано на почасовой стоимости прямых трудозатрат;',
+                        'img': '/images/dest/cups.png',
+                        })
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+                        @@include('./components/fast.html', {
+                        'class': 'gray_6',
+                        'title': 'Выделенная команда разработчиков',
+                        'text': 'Заказчик является руководителем команды разработчиков и управляет ей.',
+                        'img': '/images/dest/people.png',
+                        })
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="job-screen df">
+        <div class="job-left-column">
+            <div class="left-column">
+                <h3 class="title">
+                    Вы хотите<br><span class="sub-title"> сотрудничать?</span>
+                </h3>
+                <h3 class="text pt25 pb40">
+                    Напишите нам и поделитесь вашей идеей.
+                </h3>
+                <a href="call.html" class="button button-left">
+                    Написать нам
+                </a>
+            </div>
+        </div>
+        <div class="job-right-column">
+            <picture>
+                <img class="job-right-column-image" src="/images/dest/page.jpg" alt="">
+            </picture>
+        </div>
+
+    </div>
+
+    @@include('./components/subscription.html')
+
+
+</div>
+
+@@include('./components/footer.html')

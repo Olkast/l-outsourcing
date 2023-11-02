@@ -1,0 +1,165 @@
+@@include('./components/header.html')
+
+<div class="third-page portfolio-page">
+
+    <div class="introduction-screen">
+        @@include('./components/introduction.html', {
+        'title': 'Услуги разработки<br>мобильных приложений',
+        'sub-title': 'Предлагаем качественную разработку гибридных приложений под iOS и Android, отвечающие всем требованиям мирового стандарта и запросу клиентов',
+        })
+    </div>
+
+    <div class="development-services-screen">
+        <div class="df development-services-info">
+            <div class="development-services-left development-mobi-left">
+                <div class="development-services-info-wrp">
+                    <div class="development-services-left-text">
+                        <p class="heading">РАЗРАБОТКА МОБИЛЬНЫХ ПРИЛОЖЕНИЙ</p>
+                        <p class="text-services pt30">Предоставляем полный комплекс услуг разработки приложения от процесса анализа до публикации, поддержки и развития</p>
+                        <p class="title-services">Спектр предоставляемых услуг:</p>
+                        <div class="development-group-mobi df aib pb8">
+                            <img src="/images/dest/rhombus.svg" alt="">
+                            <p class="text-list">Проектирование и дизайн</p>
+                        </div>
+                        <div class="development-group-mobi df aib pb8">
+                            <img src="/images/dest/rhombus.svg" alt="">
+                            <p class="text-list">Разработка кроссплатформенных мобильных приложений</p>
+                        </div>
+                        <div class="development-group-mobi df aib">
+                            <img src="/images/dest/rhombus.svg" alt="">
+                            <p class="text-list">Поддержка и развитие</p>
+                        </div>
+                    </div>
+                    <div class="buttons df">
+                        <a href="portfolio.html" class="button size mr20">Портфолио</a>
+                        <a href="call.html" class="button size">Связаться с нами</a>
+                    </div>
+                </div>
+            </div>
+            <div class="development-services-right">
+                <img class="development-services-right-img" src="/images/dest/phone.png" alt="">
+            </div>
+        </div>
+        <div class="development-services-info-mobile">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="development-services-info-mobile-wrapper">
+                            <picture>
+                                <img class="development-services-info-mobile-images" src="/images/iPhone11Pro-Maskgroup.jpg">
+                            </picture>
+                            <h4 class="development-services-info-mobile-title">Разработка мобильных<br> приложений</h4>
+                            <p class="development-services-info-mobile-description">Предоставляем полный комплекс услуг разработки приложения от процесса анализа до тестирования, публикации и поддержки</p>
+                            <h5 class="development-services-info-mobile-header">Спектр предоставляемых услуг:</h5>
+                            <div class="development-services-info-mobile-wrapper-list">
+                                <ul class="development-services-info-mobile-list">
+                                    <li class="development-services-info-mobile-list-item">Проектирование и дизайн</li>
+                                    <li class="development-services-info-mobile-list-item">Разработка кроссплатформенных мобильных приложений</li>
+                                    <li class="development-services-info-mobile-list-item">Поддержка и развитие</li>
+                                </ul>
+                            </div>
+                            <div class="development-services-info-mobile-wrapper-btn-top">
+                                <a href="portfolio.html" class="button size">Портфолио</a>
+                            </div>
+                            <div class="development-services-info-mobile-wrapper-btn-bottom">
+                                <a href="call.html" class="button size">Связаться с нами</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-screen tac pt72">
+        <div class="container">
+            <p class="title tac">Технологии</p>
+            <p class="sub-title m0a content-sub-title">При разработке мобильных приложений, отдается предпочтение технологии React Native, которая выступает очень эффективным решением для создания гибридных приложений, а также фреймворку Expo  </p>
+        </div>
+    </div>
+
+    <div class="languages-screen pt70 pb72">
+        <div class="container">
+            <div class="row">
+                <div class="list col-sm-6 languages-screen-postM">
+                    @@include('./components/post.html', {
+                    'class': 'blue_1',
+                    'img': '/images/dest/react.png',
+                    'title': 'React Native',
+                    'text': 'React Native, представляющая собой платформу мобильных приложений на основе JavaScript, дает возможность создавать мобильные приложения с собственным интерфейсом для iOS и Android.',
+                    'list': []
+                    })
+                </div>
+                <div class="col-sm-6 languages-screen-postM">
+                    @@include('./components/post.html', {
+                    'class': 'gray_5',
+                    'img': '/images/dest/expo.png',
+                    'title': 'Expo',
+                    'text': ' Expo позволяет использовать инструменты, которые упрощают начальное создание и тестирование React Native приложений, а также предоставляет компоненты пользовательского интерфейса и сервисы.',
+                    'list': []
+                    })
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="info-screen">
+        <div class="info-container df">
+            <div class="info-left-column">
+                <p class="heading pb40">Разработка приложений под iOS</p>
+                <p class="info-text-left">Разрабатываем приложения для устройств Apple, такие как интернет-магазины, трекеры, полезные сервисы для упрощения жизни людей, запускаем приложения в магазине App Store и поддерживаем их на протяжении определенного времени.</p>
+            </div>
+            <div class="info-right-column">
+                <p class="heading pb40">Разработка приложений под Android</p>
+                <p class="info-text-right">Создаем простые игры и приложения для 80% мобильных устройств всего мира, проектируем и анимируем интерфейсы, работаем с данными и сетью, публикуем приложения в Google Play Market и используем возможности GPS-навигации.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="title question-page-title">У вас остались <br>вопросы?</h3>
+                <p class="sub-title question-page-sub-title">Вы можете связаться с нами, заполнив форму  ниже</p>
+                <form class="form">
+                    <div class="question-page-wrapper-input mb17">
+                        <input placeholder="Имя" class="form-input max-with100">
+                    </div>
+                    <div class="question-page-wrapper-input mb17">
+                        <input placeholder="Фамилия" class="form-input max-with100">
+                    </div>
+                    <div class="question-page-wrapper-input mb17">
+                        <input placeholder="Email" class="form-input max-with100">
+                    </div>
+                    <div class="question-page-wrapper-input mb17">
+                        <input placeholder="Тема" class="form-input max-with100">
+                    </div>
+                    <div class="question-page-wrapper-input mb25">
+                        <textarea class="form-textarea max-with100" placeholder="Описание проекта"></textarea>
+                    </div>
+                    <div class="question-page-wrapper-input">
+                        <button class="button size">Отправить бриф</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <div class="business-card">
+                    <div class="business-card-user">
+                        <div class="business-card-user-ava mr13">
+                            <img src="/images/dest/owner.png" alt="">
+                        </div>
+                        <div class="business-card-user-title">
+                            <div class="mt30">Мы всегда рады новым предложениям и<br> новым людям! </div>
+                            <div class="mt13">P. S. Совладелец компании LEO</div>
+                        </div>
+                    </div>
+                    <p class="business-card-sub-title mt20">Если у вас срочный запрос, вы можете позвонить<br> нам:</p>
+                    <div class="business-card-info mt24">T. (+34) 915 805 007</div>
+                    <div class="business-card-info">F. (+34) 915 806 082</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@@include('./components/footer.html')

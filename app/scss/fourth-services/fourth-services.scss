@@ -1,0 +1,382 @@
+.fourth-page {
+  .introduction-screen {
+    padding: 72px 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .14);
+  }
+
+  .development-services-info-mobile {
+    display: none;
+  }
+
+  .development-services-screen {
+    .development-group-consultation {
+      max-width: 465px;
+    }
+
+
+    .development-consultation-right,
+    .development-consultation-left {
+      width: 50%;
+    }
+
+    .development-consultation-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(81.39deg, var(--blue_4) 4.27%, var(--blue) 76.92%);
+    }
+
+    .development-services-right-img {
+      width: 100%;
+    }
+
+    .text-services {
+      padding-bottom: 24px;
+    }
+
+    .button-fourth-1,
+    .button-fourth-2 {
+      padding: 12px 65px;
+      color: var(--white);
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 24px;
+      letter-spacing: .003em;
+      text-align: center;
+      background: var(--blue);
+      border-radius: 4px;
+      box-shadow: 0 4px 18px var(--dark-blue);
+
+      &:hover {
+        background: #356be7;
+      }
+    }
+
+    .button-fourth-1 {
+      padding: 12px 40px;
+    }
+
+    .button-fourth-2 {
+      padding: 12px 27px;
+    }
+
+    .buttons {
+      padding-top: 50px;
+    }
+
+    .heading {
+      padding-bottom: 27px;
+      text-transform: uppercase;
+    }
+
+    .title-services {
+      max-width: 470px;
+      padding-bottom: 7px;
+    }
+
+
+  }
+}
+
+@media screen and ( max-width: 1750px ) {
+  .fourth-page {
+    .development-services-screen {
+      .development-services-right-img {
+        width: 884px;
+        max-width: inherit;
+        height: 834px;
+      }
+    }
+  }
+}
+
+
+@media screen and ( max-width: 1550px ) {
+  .fourth-page {
+    .development-services-screen {
+      .development-consultation-left {
+        //padding: 45px 0 0 125px;
+      }
+    }
+  }
+}
+
+@media screen and ( max-width: 1500px ) {
+  .fourth-page {
+    .development-services-screen {
+      .heading {
+        padding-bottom: 15px;
+      }
+
+      .buttons {
+        padding-top: 30px;
+      }
+    }
+  }
+}
+
+@media screen and ( max-width: 1400px ) {
+  .fourth-page {
+    .development-services-screen {
+      .development-consultation-left {
+        //padding: 30px 0 0 80px;
+      }
+
+      .title-services {
+        max-width: 400px;
+      }
+
+      .development-group-consultation {
+        max-width: 400px;
+      }
+    }
+  }
+}
+
+@media screen and ( max-width: 1350px ) {
+  .fourth-page {
+    .development-services-screen {
+      .development-consultation-left {
+        //padding: 20px 0 0 60px;
+      }
+    }
+  }
+}
+
+@media screen and ( max-width: 1300px ) {
+  .fourth-page {
+    .development-services-screen {
+      .development-services-right-img {
+        min-width: 690px;
+      }
+
+      .button-fourth-1 {
+        //padding: 12px 18px;
+      }
+
+      .button-fourth-2 {
+        //padding: 12px 14px;
+      }
+    }
+  }
+}
+
+@media screen and ( max-width: 1200px ) {
+  .fourth-page {
+    .development-services-screen {
+      .development-consultation-left {
+        width: 100%;
+        padding: 30px;
+      }
+
+      .title-services {
+        text-align: left;
+      }
+
+      .heading {
+        margin: 0 auto;
+        text-align: left;
+      }
+
+      .development-group-consultation {
+        max-width: 500px;
+        margin: 0 auto;
+        text-align: left;
+      }
+
+      .buttons {
+        justify-content: left;
+      }
+    }
+  }
+}
+
+
+@media screen and ( max-width: 900px )  {
+  .fourth-page {
+    .development-services-info {
+      display: none;
+    }
+
+    .introduction-screen {
+      box-shadow: none;
+    }
+
+    .development-services-info-mobile {
+      display: block;
+    }
+
+    .development-services-info-mobile-wrapper {
+      padding-bottom: 40px;
+      background: #eff7ff;
+    }
+
+    .development-services-info-mobile-wrapper-list{
+      display: flex;
+      justify-content: center;
+    }
+
+    .development-services-info-mobile-list-item {
+      position: relative;
+    }
+
+    .development-services-info-mobile-list-item::before {
+      position: absolute;
+      top: 8px;
+      left: -19px;
+      width: 8px;
+      height: 8px;
+      background: #487efb;
+      transform: rotate(45deg);
+      content: '';
+    }
+
+    .development-services-info-mobile-title {
+      margin-top: 39px;
+      margin-bottom: 24px;
+      font-weight: 600;
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .development-services-info-mobile-title,
+    .development-services-info-mobile-header,
+    .development-services-info-mobile-list,
+    .development-services-info-mobile-description,
+    .development-services-info-mobile-wrapper-btn {
+      padding: 0 12px;
+    }
+
+    .development-services-info-mobile-list {
+      padding-left: 30px;
+    }
+
+    .development-services-info-mobile-wrapper-btn-top,
+    .development-services-info-mobile-wrapper-btn-bottom
+    {
+      display: flex;
+      justify-content: center;
+    }
+
+    .development-services-info-mobile-wrapper-btn-top {
+      margin-top: 35px;
+    }
+
+    .development-services-info-mobile-wrapper-btn-bottom {
+      margin-top: 18px;
+    }
+
+    .development-services-info-mobile-description,
+    .development-services-info-mobile-header {
+      text-align: center;
+    }
+
+    .development-services-info-mobile-header {
+      font-weight: 600;
+      font-size: 21px;
+    }
+
+    .development-services-info-mobile-images {
+      width: 100%;
+    }
+
+    .development-services-screen {
+      .development-services-info {
+        display: none;
+      }
+
+      .development-services-info-mobile {
+        display: block;
+      }
+
+      .development-services-left {
+        width: 100%;
+      }
+
+      .development-frontend-left,
+      .services-backend-left {
+        padding: 35px 70px;
+      }
+
+      .development-services-right-img {
+        display: none;
+      }
+
+      .heading,
+      .title-services,
+      .text-services {
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .text-services {
+        max-width: 430px;
+      }
+
+      .development-group-frontend,
+      .development-group-backend {
+        justify-content: center;
+        max-width: 700px;
+      }
+
+      .buttons {
+        justify-content: center;
+      }
+    }
+
+    .introduction-title,
+    .content-screen .content-sub-title {
+      font-size: 15px !important;
+    }
+  }
+}
+
+@media screen and ( max-width: 767px ) {
+  .fourth-page {
+    .introduction-screen {
+      padding: 60px 0;
+    }
+
+    .development-services-screen {
+      .development-group-consultation {
+        max-width: 380px;
+      }
+    }
+  }
+}
+
+@media screen and ( max-width: 576px ) {
+  .fourth-page {
+    .introduction-screen {
+      padding: 50px 0;
+    }
+
+    .development-services-screen {
+      .development-group-consultation {
+        max-width: 406px;
+      }
+
+      .buttons {
+        display: block;
+      }
+
+      .button-fourth-1 {
+        margin: 0 auto 15px;
+        padding: 12px 33px;
+        font-size: 13px;
+      }
+
+      .button-fourth-2 {
+        margin: 0 auto;
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+
+
+
+
+

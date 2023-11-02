@@ -1,0 +1,80 @@
+@@include('./components/header.html')
+
+<div class="price-constructor-page">
+
+    <div class="introduction-screen">
+        @@include('./components/introduction.html', {
+        'title': 'Приблизительная оценка вашего веб-сайта',
+        'sub-title': 'Информация является ориентировочной. Для более подробной информации свяжитесь с нами по почте или телефонному звонку',
+        })
+    </div>
+
+    <div class="calculations-screen pt72 pb12">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 payment df mra">
+                    <div class="payment-left pr18 tac">
+                        <p class="sub-title dark pb8">Ориентировочная цена:</p>
+                        <h2 class="title mb-0">3000$</h2>
+                    </div>
+                    <div class="payment-right pl60">
+                        <div class="payment-min df pb13">
+                            <p class="sub-title dark pr16">Минимальная цена:</p>
+                            <p class="component">2200$</p>
+                        </div>
+                        <div class="payment-max df pt10">
+                            <p class="sub-title dark pr9">Максимальная цена:</p>
+                            <p class="component">4500$</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 payment df">
+                    <div class="payment-left pr18 tac">
+                        <p class="sub-title dark pb8">Расчетное время:</p>
+                        <h2 class="title mb-0">186 ч</h2>
+                    </div>
+                    <div class="payment-right pl60">
+                        <div class="payment-min df pb13">
+                            <p class="sub-title dark pr16">Минимальное время:</p>
+                            <p class="component">150 ч</p>
+                        </div>
+                        <div class="payment-max df pt10">
+                            <p class="sub-title dark pr9">Максимальное время:</p>
+                            <p class="component">220 ч</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-screen pt80">
+        <div class="container">
+            <p class="form-title pb18">Введите свой адрес электронной почты, и мы отправим вам PDF-файл со всеми подробностями.</p>
+            <div class="row pt30">
+                <div class="form-left-column col-lg-6">
+                    <input class="form-input mb14" placeholder="Имя" type="text">
+                    <input class="form-input mt10 mb14" placeholder="Фамилия" type="text">
+                    <input class="form-input mt10 mb14" placeholder="Email" type="text">
+                    <input class="form-input next mb20" placeholder="Ваше сообщение" type="text">
+                    <p class="form-text pb40">Не нашли то, что искали? Сообщите нам, какие инструменты вам нужны,
+                        и мы разработаем для вас цену.</p>
+                    <button class="button">Отправить</button>
+                </div>
+                <div class="form-right-column col-lg-6">
+                    <div class="form-right-info mb14">
+                        <p class="sub-title dark form-content">Обращаем ваше внимание, что это лишь приблизительная оценка, а не договор публичной оферты. Мы не можем обещать, что сможем создать то, что вы ищете, по указанной ниже цене, поскольку в проекте может быть миллион дополнительных деталей, которые наш конфигуратор мог упустить. Однако эта оценка должна дать вам довольно хорошее представление о цене.</p>
+                    </div>
+                    <div class="form-right-info-text mt10">
+                        <p class="sub-title dark form-content">Не волнуйтесь, мы уже отметили ваш интерес, и наша бдительная команда продаж попытается связаться с вами в ближайшее время.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+@@include('./components/footer.html')
