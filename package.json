@@ -6,6 +6,7 @@
     "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gulp build",
+    "deploy": "gulp build && gulp deploy",
     "stylelint": "npx stylelint ./app/scss/**/*.scss",
     "stylelint_fix": "npx stylelint --fix ./app/scss/**/*.scss",
     "prettier": "prettier  --write ./app/js/app.js"
@@ -21,6 +22,7 @@
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
     "gulp-file-include": "^2.3.0",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-imagemin": "^7.1.0",
     "gulp-less": "^4.0.1",
     "gulp-newer": "^1.4.0",
