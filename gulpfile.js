@@ -133,7 +133,7 @@ function cleanimg() {
 }
 
 function deploy() {
-    return src('./dist/**/*')
+    return src('dist/**/*')
         .pipe(ghPages());
 }
 
